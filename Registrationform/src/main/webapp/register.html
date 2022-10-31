@@ -1,0 +1,34 @@
+<html>
+<head>
+<center><h1>***********Registration*********</h1></center>
+</head>
+<body bgcolor= "teal">
+<form method="post" action="./RegistrationServlet">
+<pre><h1>
+<center>
+Name                      <input type="text" name="username"/>
+Password                  <input type="password" name="upassword"/>
+<br>
+Qualification             <input type="checkbox" name="qualification" value="BSC"/>BSC 
+                          <input type="checkbox" name="qualification" value="MCA"/>MCA 
+                          <input type="checkbox" name="qualification" value="MTECH"/>MTECH
+                          <br>
+Gender                    <input type="radio" name="gender" value="MALE"/>MALE 
+                           <input type="radio" name="gender" value="FEMALE"/>FEMALE
+                           <br>
+Technologies              <select name="technologies" size="3" multiple>
+                          <option value="C">C</option>
+                          <option value="C++">C++</option>
+                          <option value="JAVA">JAVA</option>
+                          </select>
+                          <br>
+                          
+Address                   <input type="textarea" name="address" rows="5" cols="25"></textarea>
+<br>
+                           <input type="submit" value="Register"/>
+ </center>
+ </h1>
+</pre>
+</form>
+</body>
+</html>
